@@ -1,3 +1,34 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, p, blockquote, th, td, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+article, section, aside, nav, header, footer {
+  display: block;
+}
+
+body {
+  color: #000;
+  font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 16px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e4e4e4), color-stop(0.2, #e4e4e4), color-stop(0.2, #dddddd));
+  background-size: 7px 10px;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  line-height: 1.2;
+}
+
 .toolbarBox {
   position: relative;
 }
